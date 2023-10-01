@@ -1,0 +1,36 @@
+
+baseURL: ""
+languageCode: en-us
+title: "Anamika V Menon"
+theme: "PaperMod"
+
+params:
+
+  homeInfoParams:
+    Title: "Hey guys"
+    
+    Content: "Welcome to my website.This website is a reflection of who I am, what I'm passionate about, and the journey I'm on. Whether you stumbled upon this page intentionally or by chance, I hope you find something here that captivates your interest."
+  
+ 
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+
+
+
+menu:
+  main:
+    - identifier: categories
+      name: "Categories"
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: "Tags"
+      url: /tags/
+      weight: 20
