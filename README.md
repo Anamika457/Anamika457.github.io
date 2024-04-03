@@ -1,6 +1,6 @@
 # ott_frontend_flutter
 
-<!-- Table of contents -->
+
 ## Table of contents:
 - [About the Project](#item-one)
 - [Getting Started](#item-two)
@@ -11,7 +11,7 @@
 - [Contributions](#item-four)
 
 
-<!-- About the project-->
+
 <a id="item-one"></a>
 ## About the project
 This app simplifies your movie exploration journey. No more endless internet searches to figure out where your favourite movies are streaming! With this, you can effortlessly browse through a vast library of films, explore various genres, check out their ratings, watch trailers, and discover the platforms they're available on— all in one convenient place.
@@ -56,14 +56,15 @@ Powered by a dynamic Flutter frontend and a stable Django backend, this app pres
     </div>
 </div>
 
+
     
 
 
-<!--Getting started-->
+
 <a id="item-two"></a>
 ## Getting Started
 
-<!--Prerequisites-->
+
 
 <a id="item-two(1)"></a>
 ### Prerequisites
@@ -72,7 +73,7 @@ Powered by a dynamic Flutter frontend and a stable Django backend, this app pres
 
 
 
-<!--Installation-->
+
 
 <a id="item-two(2)"></a>
 
@@ -120,14 +121,14 @@ Powered by a dynamic Flutter frontend and a stable Django backend, this app pres
 
 
 
-<!--Issues-->
+
 <a id="item-three"></a>
 ## Creating an Issue
 
 We greatly value your feedback and contributions, as they help us improve and grow. 
 
 
-<!--Issue template-->
+
 <a id="item-three(1)"></a>
 ### Issue templates
 
@@ -148,7 +149,7 @@ To ensure efficient communication and streamline the process of reporting issues
 
 
 
-<!--Contributions-->
+
 <a id="item-four"></a>
 ## Contributions
 
@@ -173,7 +174,6 @@ git commit -m 'Add some AmazingFeature'
 git push origin issue_number-branch-name
 ```
 5. Open a Merge Request
-
 
 
 
