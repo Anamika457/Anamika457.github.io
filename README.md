@@ -20,39 +20,30 @@ Powered by a dynamic Flutter frontend and a stable Django backend, this app pres
 
 ### Screenshots
 
-<div style="display: inline-block;">
-    <div style="display: inline-block; margin-right: 20px;">
-        <img src="./assets/sign_in_demo.jpg" width="200px" style="width: 200px; height: auto;">
+<div style="display: flex; flex-wrap: wrap; margin: -10px;">
+    <div style="flex: 1 0 calc(50% - 20px); margin: 10px;">
+        <img src="./assets/sign_in_demo.jpg" width="100%" style="width: 100%; height: auto;">
     </div>
-    <div style="display: inline-block; margin-right: 20px;">
-        <img src="./assets/sign_up_demo.jpg" width="200px" style="width: 200px; height: auto;">
+    <div style="flex: 1 0 calc(50% - 20px); margin: 10px;">
+        <img src="./assets/sign_up_demo.jpg" width="100%" style="width: 100%; height: auto;">
     </div>
-</div>
-<br>
-<div style="display: inline-block;">
-    <div style="display: inline-block; margin-right: 20px;">
-        <img src="./assets/genre_demo.jpg" width="200px" style="width: 200px; height: auto;">
+    <div style="flex: 1 0 calc(50% - 20px); margin: 10px;">
+        <img src="./assets/genre_demo.jpg" width="100%" style="width: 100%; height: auto;">
     </div>
-    <div style="display: inline-block; margin-right: 20px;">
-        <img src="./assets/home_page_demo.png" width="200px" style="width: 200px; height: auto;">
+    <div style="flex: 1 0 calc(50% - 20px); margin: 10px;">
+        <img src="./assets/home_page_demo.png" width="100%" style="width: 100%; height: auto;">
     </div>
-</div>
-<br>
-<div style="display: inline-block;">
-    <div style="display: inline-block; margin-right: 20px;">
-        <img src="./assets/search_demo.jpg" width="200px" style="width: 200px; height: auto;">
+    <div style="flex: 1 0 calc(50% - 20px); margin: 10px;">
+        <img src="./assets/search_demo.jpg" width="100%" style="width: 100%; height: auto;">
     </div>
-    <div style="display: inline-block; margin-right: 20px;">
-        <img src="./assets/feature1_demo.jpg" width="200px" style="width: 200px; height: auto;">
+    <div style="flex: 1 0 calc(50% - 20px); margin: 10px;">
+        <img src="./assets/feature1_demo.jpg" width="100%" style="width: 100%; height: auto;">
     </div>
-</div>
-<br>
-<div style="display: inline-block;">
-    <div style="display: inline-block; margin-right: 20px;">
-        <img src="./assets/feature2_demo.jpg" width="200px" style="width: 200px; height: auto;">
+    <div style="flex: 1 0 calc(50% - 20px); margin: 10px;">
+        <img src="./assets/feature2_demo.jpg" width="100%" style="width: 100%; height: auto;">
     </div>
-    <div style="display: inline-block;">
-        <img src="./assets/feature3_demo.jpg" width="200px" style="width: 200px; height: auto;">
+    <div style="flex: 1 0 calc(50% - 20px); margin: 10px;">
+        <img src="./assets/feature3_demo.jpg" width="100%" style="width: 100%; height: auto;">
     </div>
 </div>
 
