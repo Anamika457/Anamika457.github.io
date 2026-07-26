@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Clash Display', 'Inter', sans-serif;
+
+  --color-bg: 250 249 246;
+  --color-bg-subtle: 242 240 234;
+  --color-text: 18 17 16;
+  --color-text-muted: 90 84 74;
+  --color-border: 229 226 216;
+}
+
+.dark {
+  --color-bg: 10 10 9;
+  --color-bg-subtle: 30 28 23;
+  --color-text: 250 249 246;
+  --color-text-muted: 163 156 134;
+  --color-border: 51 47 39;
+}
+
+* {
+  border-color: rgb(var(--color-border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(var(--color-bg));
+  color: rgb(var(--color-text));
+  font-family: var(--font-sans);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  body {
+    cursor: none;
+  }
+  a, button {
+    cursor: none;
+  }
+}
+
+::selection {
+  background-color: rgb(194 240 15 / 0.35);
+  color: rgb(var(--color-text));
+}
+
+.text-muted {
+  color: rgb(var(--color-text-muted));
+}
+
+.bg-subtle {
+  background-color: rgb(var(--color-bg-subtle));
+}
+
+.gradient-mesh {
+  background-image:
+    radial-gradient(at 20% 20%, rgb(194 240 15 / 0.1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgb(255 107 74 / 0.06) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgb(194 240 15 / 0.06) 0px, transparent 50%);
+}
